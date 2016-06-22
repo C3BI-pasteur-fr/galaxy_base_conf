@@ -1,0 +1,11 @@
+#This file lists the locations and dbkeys of all the fasta files
+#under the "fqCleaner" directory (a directory that contains a directory
+#for each build). The script fqCleaner.xml will use the contaminant 
+# sequence to filter the reads This file has the format (white space 
+#characters are TAB characters):
+
+
+
+/home/odoppelt/localStuff_VM/tools/galaxProject/fqCleaner/alienTrimmerPF8contaminants.fasta contaminantSequencesJun13	/home/odoppelt/localStuff_VM/tools/galaxProject/fqCleaner/alienTrimmerPF8contaminants.fasta
+/pasteur/projets/common/galaxy/projets/fqCleaner/alienTrimmerPF8contaminants.fasta  contaminantSequencesJun13	/pasteur/projets/common/galaxy/projets/fqCleaner/alienTrimmerPF8contaminants.fasta
+/pasteur/projets/common/galaxy/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta	illuminaContaminantMar14	/pasteur/projets/common/galaxy/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta

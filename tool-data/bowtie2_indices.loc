@@ -1,0 +1,61 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of Bowtie2 indexed sequences data files. You will
+#need to create these data files and then create a bowtie_indices.loc
+#file similar to this one (store it in this directory) that points to
+#the directories in which those files are stored. The bowtie2_indices.loc
+#file has this format (longer white space characters are TAB characters):
+#
+#<unique_build_id>   <dbkey>   <display_name>   <file_base_path>
+#
+#So, for example, if you had hg18 indexed stored in
+#/depot/data2/galaxy/bowtie2/hg18/,
+#then the bowtie2_indices.loc entry would look like this:
+#
+#hg18	hg18	hg18	/depot/data2/galaxy/bowtie2/hg18/hg18
+#
+#and your /depot/data2/galaxy/bowtie2/hg18/ directory
+#would contain hg18.*.ebwt files:
+#
+#-rw-r--r--  1 james    universe 830134 2005-09-13 10:12 hg18.1.ebwt
+#-rw-r--r--  1 james    universe 527388 2005-09-13 10:12 hg18.2.ebwt
+#-rw-r--r--  1 james    universe 269808 2005-09-13 10:12 hg18.3.ebwt
+#...etc...
+#
+#Your bowtie2_indices.loc file should include an entry per line for each
+#index set you have stored. The "file" in the path does not actually
+#exist, but it is the prefix for the actual index files. For example:
+#
+#hg18canon			hg18	hg18 Canonical	/depot/data2/galaxy/bowtie2/hg18/hg18canon
+#hg18full			hg18	hg18 Full		/depot/data2/galaxy/bowtie2/hg18/hg18full
+#/orig/path/hg19	hg19	hg19			/depot/data2/galaxy/bowtie2/hg19/hg19
+#...etc...
+#
+
+btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bowtie/btaurus/2.1.0/btaurus.fa
+calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bowtie/calbicans5314/2.1.0/calbicans5314.fa
+calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bowtie/calbicansWO1/2.1.0/calbicansWO1.fa
+cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bowtie/cfamiliaris/2.1.0/cfamiliaris.fa
+chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bowtie/chiroptera/2.1.0/chiroptera.fa
+cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/bowtie/cneoformansH99/2.1.0/cneoformansH99.fa
+cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/bowtie/cneoformansJEC21/2.1.0/cneoformansJEC21.fa
+csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bowtie/csabaeus/2.1.0/csabaeus.fa
+dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bowtie/dmelanogaster/2.1.0/dmelanogaster.fa
+ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bowtie/ecaballus/2.1.0/ecaballus.fa
+fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bowtie/fcatus/2.1.0/fcatus.fa
+hg19	hg19	hg19	/pasteur/services/banques/prod/index/bowtie/hg19/2.1.0/hg19.fa
+mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bowtie/mlucifugus/2.1.0/mlucifugus.fa
+mm10	mm10	mm10	/pasteur/services/banques/prod/index/bowtie/mm10/2.1.0/mm10.fa
+mm9	mm9	mm9	/pasteur/services/banques/prod/index/bowtie/mm9/2.1.0/mm9.fa
+pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bowtie/pfalciparum/2.1.0/pfalciparum.fa
+pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bowtie/pvampyrus/2.1.0/pvampyrus.fa
+pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bowtie/pvivax/2.1.0/pvivax.fa
+scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bowtie/scerevisiae/2.1.0/scerevisiae.fa
+spombe	spombe	spombe	/pasteur/services/banques/prod/index/bowtie/spombe/2.1.0/spombe.fa
+sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bowtie/sscrofa/2.1.0/sscrofa.fa
+
+
+#Note that for backwards compatibility with workflows, the unique ID of
+#an entry must be the path that was in the original loc file, because that
+#is the value stored in the workflow for that parameter. That is why the
+#hg19 entry above looks odd. New genomes can be better-looking.
+#

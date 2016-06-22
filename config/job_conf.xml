@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- A sample job config that explicitly configures job running the way it is configured by default (if there is no explicit config). -->
+<job_conf>
+    <plugins>
+        <plugin id="local" type="runner" load="galaxy.jobs.runners.local:LocalJobRunner"/>
+    </plugins>
+    <handlers default="handlers">
+        <handler id="job0" tags="handlers"/>
+    </handlers>
+    <destinations default="local">
+        <destination id="local" runner="local" tags="localdefault"/>
+    </destinations>                           
+		<limits>
+        <limit type="destination_user_concurrent_jobs" id="local">5</limit>
+        <limit type="anonymous_user_concurrent_jobs">1</limit>
+    </limits>
+
+</job_conf>

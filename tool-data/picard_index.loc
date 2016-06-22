@@ -1,0 +1,50 @@
+#This is a sample file distributed with Galaxy that enables tools
+#to use a directory of Picard dict and associated files. You will need
+#to create these data files and then create a picard_index.loc file 
+#similar to this one (store it in this directory) that points to 
+#the directories in which those files are stored. The picard_index.loc 
+#file has this format (longer white space is the TAB character):
+#
+#<unique_build_id>   <dbkey>   <display_name>   <fasta_file_path>
+#
+#So, for example, if you had hg18 indexed and stored in 
+#/depot/data2/galaxy/srma/hg18/, 
+#then the srma_index.loc entry would look like this:
+#
+#hg18   hg18   hg18 Pretty   /depot/data2/galaxy/picard/hg18/hg18.fa
+#
+#and your /depot/data2/galaxy/srma/hg18/ directory
+#would contain the following three files:
+#hg18.fa
+#hg18.dict
+#hg18.fa.fai
+#
+#The dictionary file for each reference (ex. hg18.dict) must be 
+#created via Picard (http://picard.sourceforge.net). Note that
+#the dict file does not have the .fa extension although the
+#path list in the loc file does include it.
+
+btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/picard/btaurus/1.94/btaurus.fa
+calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/picard/calbicans5314/1.94/calbicans5314.fa
+calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/picard/calbicansWO1/1.94/calbicansWO1.fa
+cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/picard/cfamiliaris/1.94/cfamiliaris.fa
+chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/picard/chiroptera/1.94/chiroptera.fa
+cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/picard/cneoformansH99/1.94/cneoformansH99.fa
+cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/picard/cneoformansJEC21/1.94/cneoformansJEC21.fa
+csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/picard/csabaeus/1.94/csabaeus.fa
+dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/picard/dmelanogaster/1.94/dmelanogaster.fa
+ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/picard/ecaballus/1.94/ecaballus.fa
+fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/picard/fcatus/1.94/fcatus.fa
+hg19	hg19	hg19	/pasteur/services/banques/prod/index/picard/hg19/1.94/hg19.fa
+mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/picard/mlucifugus/1.94/mlucifugus.fa
+mm10	mm10	mm10	/pasteur/services/banques/prod/index/picard/mm10/1.94/mm10.fa
+mm9	mm9	mm9	/pasteur/services/banques/prod/index/picard/mm9/1.94/mm9.fa
+pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/picard/pfalciparum/1.94/pfalciparum.fa
+pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/picard/pvampyrus/1.94/pvampyrus.fa
+pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/picard/pvivax/1.94/pvivax.fa
+scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/picard/scerevisiae/1.94/scerevisiae.fa
+spombe	spombe	spombe	/pasteur/services/banques/prod/index/picard/spombe/1.94/spombe.fa
+sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/picard/sscrofa/1.94/sscrofa.fa
+
+
+
