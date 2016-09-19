@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tool_sheds>
+    <tool_shed name="Galaxy Main Tool Shed" url="https://toolshed.g2.bx.psu.edu/"/>
+    <tool_shed name="Galaxy Test Tool Shed" url="https://testtoolshed.g2.bx.psu.edu/"/> 
+    <tool_shed name="Pasteur tool shed" url="https://galaxy.web.pasteur.fr/toolshed-pasteur/"/>
+    <tool_shed name="Toolshed TEST IFB" url="https://testtoolshed.france-bioinformatique.fr/"/>
+</tool_sheds>
