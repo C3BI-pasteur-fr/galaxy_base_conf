@@ -31,25 +31,27 @@
 #/orig/path/hg19.fa   hg19   hg19             /depot/data2/galaxy/hg19/base/hg19.fa
 #...etc...
 
-btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bwa/btaurus/0.5.9/btaurus.fa
-calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bwa/calbicans5314/0.5.9/calbicans5314.fa
-calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bwa/calbicansWO1/0.5.9/calbicansWO1.fa
-cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bwa/cfamiliaris/0.5.9/cfamiliaris.fa
-chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bwa/chiroptera/0.5.9/chiroptera.fa
-csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bwa/csabaeus/0.5.9/csabaeus.fa
-dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bwa/dmelanogaster/0.5.9/dmelanogaster.fa
-ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bwa/ecaballus/0.5.9/ecaballus.fa
-fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bwa/fcatus/0.5.9/fcatus.fa
-hg19	hg19	hg19	/pasteur/services/banques/prod/index/bwa/hg19/0.5.9/hg19.fa
-mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bwa/mlucifugus/0.5.9/mlucifugus.fa
-mm10	mm10	mm10	/pasteur/services/banques/prod/index/bwa/mm10/0.5.9/mm10.fa
-mm9	mm9	mm9	/pasteur/services/banques/prod/index/bwa/mm9/0.5.9/mm9.fa
-pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bwa/pfalciparum/0.5.9/pfalciparum.fa
-pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bwa/pvampyrus/0.5.9/pvampyrus.fa
-pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bwa/pvivax/0.5.9/pvivax.fa
-scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bwa/scerevisiae/0.5.9/scerevisiae.fa
-spombe	spombe	spombe	/pasteur/services/banques/prod/index/bwa/spombe/0.5.9/spombe.fa
-sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bwa/sscrofa/0.5.9/sscrofa.fa
+btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bwa/0.5.9/btaurus.fa
+calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bwa/0.5.9/calbicans5314.fa
+calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bwa/0.5.9/calbicansWO1.fa
+cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bwa/0.5.9/cfamiliaris.fa
+chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bwa/0.5.9/chiroptera.fa
+csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bwa/0.5.9/csabaeus.fa
+dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bwa/0.5.9/dmelanogaster.fa
+ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bwa/0.5.9/ecaballus.fa
+fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bwa/0.5.9/fcatus.fa
+hg19	hg19	hg19	/pasteur/services/banques/prod/index/bwa/0.5.9/hg19.fa
+hg18	hg18	hg18	/pasteur/services/banques/prod/index/bwa/0.5.9/hg18.fa
+mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bwa/0.5.9/mlucifugus.fa
+mm10	mm10	mm10	/pasteur/services/banques/prod/index/bwa/0.5.9/mm10.fa
+mm9	mm9	mm9	/pasteur/services/banques/prod/index/bwa/0.5.9/mm9.fa
+mm8	mm8	mm8	/pasteur/services/banques/prod/index/bwa/0.5.9/mm8.fa
+pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bwa/0.5.9/pfalciparum.fa
+pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bwa/0.5.9/pvampyrus.fa
+pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bwa/0.5.9/pvivax.fa
+scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bwa/0.5.9/scerevisiae.fa
+spombe	spombe	spombe	/pasteur/services/banques/prod/index/bwa/0.5.9/spombe.fa
+sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bwa/0.5.9/sscrofa.fa
 
 #
 #Note that for backwards compatibility with workflows, the unique ID of

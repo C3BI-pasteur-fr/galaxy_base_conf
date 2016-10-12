@@ -31,27 +31,29 @@
 #...etc...
 #
 
-btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bowtie/btaurus/2.1.0/btaurus.fa
-calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bowtie/calbicans5314/2.1.0/calbicans5314.fa
-calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bowtie/calbicansWO1/2.1.0/calbicansWO1.fa
-cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bowtie/cfamiliaris/2.1.0/cfamiliaris.fa
-chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bowtie/chiroptera/2.1.0/chiroptera.fa
-cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/bowtie/cneoformansH99/2.1.0/cneoformansH99.fa
-cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/bowtie/cneoformansJEC21/2.1.0/cneoformansJEC21.fa
-csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bowtie/csabaeus/2.1.0/csabaeus.fa
-dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bowtie/dmelanogaster/2.1.0/dmelanogaster.fa
-ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bowtie/ecaballus/2.1.0/ecaballus.fa
-fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bowtie/fcatus/2.1.0/fcatus.fa
-hg19	hg19	hg19	/pasteur/services/banques/prod/index/bowtie/hg19/2.1.0/hg19.fa
-mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bowtie/mlucifugus/2.1.0/mlucifugus.fa
-mm10	mm10	mm10	/pasteur/services/banques/prod/index/bowtie/mm10/2.1.0/mm10.fa
-mm9	mm9	mm9	/pasteur/services/banques/prod/index/bowtie/mm9/2.1.0/mm9.fa
-pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bowtie/pfalciparum/2.1.0/pfalciparum.fa
-pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bowtie/pvampyrus/2.1.0/pvampyrus.fa
-pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bowtie/pvivax/2.1.0/pvivax.fa
-scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bowtie/scerevisiae/2.1.0/scerevisiae.fa
-spombe	spombe	spombe	/pasteur/services/banques/prod/index/bowtie/spombe/2.1.0/spombe.fa
-sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bowtie/sscrofa/2.1.0/sscrofa.fa
+btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bowtie/2.1.0/btaurus.fa
+calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bowtie/2.1.0/calbicans5314.fa
+calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bowtie/2.1.0/calbicansWO1.fa
+cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bowtie/2.1.0/cfamiliaris.fa
+chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bowtie/2.1.0/chiroptera.fa
+cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/bowtie/2.1.0/cneoformansH99.fa
+cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/bowtie/2.1.0/cneoformansJEC21.fa
+csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bowtie/2.1.0/csabaeus.fa
+dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bowtie/2.1.0/dmelanogaster.fa
+ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bowtie/2.1.0/ecaballus.fa
+fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bowtie/2.1.0/fcatus.fa
+hg19	hg19	hg19	/pasteur/services/banques/prod/index/bowtie/2.1.0/hg19.fa
+hg18	hg18	hg18	/pasteur/services/banques/prod/index/bowtie/2.1.0/hg18.fa
+mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bowtie/2.1.0/mlucifugus.fa
+mm10	mm10	mm10	/pasteur/services/banques/prod/index/bowtie/2.1.0/mm10.fa
+mm9	mm9	mm9	/pasteur/services/banques/prod/index/bowtie/2.1.0/mm9.fa
+mm8	mm8	mm8	/pasteur/services/banques/prod/index/bowtie/2.1.0/mm8.fa
+pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bowtie/2.1.0/pfalciparum.fa
+pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bowtie/2.1.0/pvampyrus.fa
+pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bowtie/2.1.0/pvivax.fa
+scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bowtie/2.1.0/scerevisiae.fa
+spombe	spombe	spombe	/pasteur/services/banques/prod/index/bowtie/2.1.0/spombe.fa
+sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bowtie/2.1.0/sscrofa.fa
 
 
 #Note that for backwards compatibility with workflows, the unique ID of
