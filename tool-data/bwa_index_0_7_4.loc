@@ -31,29 +31,8 @@
 #/orig/path/hg19.fa   hg19   hg19             /depot/data2/galaxy/hg19/base/hg19.fa
 #...etc...
 
-btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bwa/0.7.4/btaurus.fa
-calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bwa/0.7.4/calbicans5314.fa
-calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bwa/0.7.4/calbicansWO1.fa
-cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bwa/0.7.4/cfamiliaris.fa
-chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bwa/0.7.4/chiroptera.fa
-cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/bwa/0.7.4/cneoformansH99.fa
-cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/bwa/0.7.4/cneoformansJEC21.fa
-csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bwa/0.7.4/csabaeus.fa
-dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bwa/0.7.4/dmelanogaster.fa
-ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bwa/0.7.4/ecaballus.fa
-fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bwa/0.7.4/fcatus.fa
-hg19	hg19	hg19	/pasteur/services/banques/prod/index/bwa/0.7.4/hg19.fa
-hg18	hg18	hg18	/pasteur/services/banques/prod/index/bwa/0.7.4/hg18.fa
-mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bwa/0.7.4/mlucifugus.fa
-mm10	mm10	mm10	/pasteur/services/banques/prod/index/bwa/0.7.4/mm10.fa
-mm9	mm9	mm9	/pasteur/services/banques/prod/index/bwa/0.7.4/mm9.fa
-mm8	mm8	mm8	/pasteur/services/banques/prod/index/bwa/0.7.4/mm8.fa
-pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bwa/0.7.4/pfalciparum.fa
-pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bwa/0.7.4/pvampyrus.fa
-pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bwa/0.7.4/pvivax.fa
-scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bwa/0.7.4/scerevisiae.fa
-spombe	spombe	spombe	/pasteur/services/banques/prod/index/bwa/0.7.4/spombe.fa
-sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bwa/0.7.4/sscrofa.fa
+yersinia_pestis	yersinia_pestis	yersinia_pestis	/data/bank/index/bwa/0.7.4/yersinia_pestis.fa
+m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	/data/bank/index/bwa/0.7.4/m_tuberculosis_CDC1551.fa
 
 #
 #Note that for backwards compatibility with workflows, the unique ID of

@@ -6,6 +6,5 @@
 
 
 
-/home/odoppelt/localStuff_VM/tools/galaxProject/fqCleaner/alienTrimmerPF8contaminants.fasta contaminantSequencesJun13	/home/odoppelt/localStuff_VM/tools/galaxProject/fqCleaner/alienTrimmerPF8contaminants.fasta
-/pasteur/projets/common/galaxy/projets/fqCleaner/alienTrimmerPF8contaminants.fasta  contaminantSequencesJun13	/pasteur/projets/common/galaxy/projets/fqCleaner/alienTrimmerPF8contaminants.fasta
-/pasteur/projets/common/galaxy/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta	illuminaContaminantMar14	/pasteur/projets/common/galaxy/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta
+/data/galaxypa/projets/fqCleaner/alienTrimmerPF8contaminants.fasta  contaminantSequencesJun13	/data/galaxypa/projets/fqCleaner/alienTrimmerPF8contaminants.fasta
+/data/galaxypa/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta	illuminaContaminantMar14	/data/galaxypa/projets/fqCleaner/Liste_primers_adaptors_illumina_March14.fasta

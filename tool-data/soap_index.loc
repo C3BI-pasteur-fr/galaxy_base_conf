@@ -21,27 +21,7 @@
 #hg19 entry above looks odd. New genomes can be better-looking.
 #
 
-/pasteur/services/banques/prod/index/soap/2.21/btaurus.fa.index	btaurus
-/pasteur/services/banques/prod/index/soap/2.21/calbicans5314.fa.index	calbicans5314
-/pasteur/services/banques/prod/index/soap/2.21/calbicansW01.fa.index	calbicansWO1
-/pasteur/services/banques/prod/index/soap/2.21/cfamiliaris.fa.index	cfamiliaris
-/pasteur/services/banques/prod/index/soap/2.21/chiroptera.fa.index	chiroptera
-/pasteur/services/banques/prod/index/soap/2.21/cneoformansH99.fa.index	cneoformansH99
-/pasteur/services/banques/prod/index/soap/2.21/cneoformansJEC21.fa.index	cneoformansJEC21
-/pasteur/services/banques/prod/index/soap/2.21/csabaeus.fa.index	csabaeus
-/pasteur/services/banques/prod/index/soap/2.21/dmelanogaster.fa.index	dmelanogaster
-/pasteur/services/banques/prod/index/soap/2.21/ecaballus.fa.index	ecaballus
-/pasteur/services/banques/prod/index/soap/2.21/fcatus.fa.index	fcatus
-/pasteur/services/banques/prod/index/soap/2.21/hg19.fa.index	hg19
-/pasteur/services/banques/prod/index/soap/2.21/hg18.fa.index	hg18
-/pasteur/services/banques/prod/index/soap/2.21/mlucifugus.fa.index	mlucifugus
-/pasteur/services/banques/prod/index/soap/2.21/mm10.fa.index	mm10
-/pasteur/services/banques/prod/index/soap/2.21/mm9.fa.index	mm9
-/pasteur/services/banques/prod/index/soap/2.21/mm8.fa.index	mm8
-/pasteur/services/banques/prod/index/soap/2.21/pfalciparum.fa.index	pfalciparum
-/pasteur/services/banques/prod/index/soap/2.21/pvampyrus.fa.index	pvampyrus
-/pasteur/services/banques/prod/index/soap/2.21/pvivax.fa.index	pvivax
-/pasteur/services/banques/prod/index/soap/2.21/scerevisiae.fa.index	scerevisiae
-/pasteur/services/banques/prod/index/soap/2.21/spombe.fa.index	spombe
-/pasteur/services/banques/prod/index/soap/2.21/sscrofa.fa.index	sscrofa
+
+/data/bank/index/soap/2.21/m_tuberculosis_CDC1551.fa.index	m_tuberculosis_CDC1551
+/data/bank/index/soap/2.21/yersinia_pestis.fa.index	yersinia_pestis
 

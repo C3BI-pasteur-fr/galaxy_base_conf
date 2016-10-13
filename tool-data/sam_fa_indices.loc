@@ -25,24 +25,5 @@
 #as a prefix for the index file.  For example:
 #
 
-index	btaurus	/pasteur/services/banques/prod/index/samtools/0.1.19/btaurus.fa
-index	calbicans5314	/pasteur/services/banques/prod/index/samtools/0.1.19/calbicans5314.fa
-index	calbicansWO1	/pasteur/services/banques/prod/index/samtools/0.1.19/calbicansWO1.fa
-index	cfamiliaris	/pasteur/services/banques/prod/index/samtools/0.1.19/cfamiliaris.fa
-index	chiroptera	/pasteur/services/banques/prod/index/samtools/0.1.19/chiroptera.fa
-index	csabaeus	/pasteur/services/banques/prod/index/samtools/0.1.19/csabaeus.fa
-index	dmelanogaster	/pasteur/services/banques/prod/index/samtools/0.1.19/dmelanogaster.fa
-index	ecaballus	/pasteur/services/banques/prod/index/samtools/0.1.19/ecaballus.fa
-index 	fcatus	/pasteur/services/banques/prod/index/samtools/0.1.19/fcatus.fa
-index	hg19	/pasteur/services/banques/prod/index/samtools/0.1.19/hg19.fa
-index	hg18	/pasteur/services/banques/prod/index/samtools/0.1.19/hg18.fa
-index	mlucifugus	/pasteur/services/banques/prod/index/samtools/0.1.19/mlucifugus.fa
-index	mm10	/pasteur/services/banques/prod/index/samtools/0.1.19/mm10.fa
-index	mm9	/pasteur/services/banques/prod/index/samtools/0.1.19/mm9.fa
-index	mm8	/pasteur/services/banques/prod/index/samtools/0.1.19/mm8.fa
-index	pfalciparum	/pasteur/services/banques/prod/index/samtools/0.1.19/pfalciparum.fa
-index	pvampyrus	/pasteur/services/banques/prod/index/samtools/0.1.19/pvampyrus.fa
-index	pvivax	/pasteur/services/banques/prod/index/samtools/0.1.19/pvivax.fa
-index	scerevisiae	/pasteur/services/banques/prod/index/samtools/0.1.19/scerevisiae.fa
-index	spombe	/pasteur/services/banques/prod/index/samtools/0.1.19/spombe.fa
-index	sscrofa	/pasteur/services/banques/prod/index/samtools/0.1.19/sscrofa.fa
+index	yersinia_pestis	/data/bank/index/samtools/0.1.19/yersinia_pestis.fa
+index	m_tuberculosis_CDC1551	/data/bank/index/samtools/0.1.19/m_tuberculosis_CDC1551.fa

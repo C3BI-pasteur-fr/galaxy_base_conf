@@ -56,5 +56,5 @@
 #seq bosTau3 /depot/data2/galaxy/bosTau3/seq
 #...etc...
 
-seq	hg19	/pasteur/services/banques/prod/rel/hg19/current/fasta/3.6/hg19.fa
+# seq	hg19	/pasteur/services/banques/prod/rel/hg19/current/fasta/3.6/hg19.fa
 

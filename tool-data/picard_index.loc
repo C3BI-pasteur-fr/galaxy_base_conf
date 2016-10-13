@@ -24,29 +24,8 @@
 #the dict file does not have the .fa extension although the
 #path list in the loc file does include it.
 
-btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/picard/1.94/btaurus.fa
-calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/picard/1.94/calbicans5314.fa
-calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/picard/1.94/calbicansWO1.fa
-cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/picard/1.94/cfamiliaris.fa
-chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/picard/1.94/chiroptera.fa
-cneoformansH99	cneoformansH99	cneoformansH99	/pasteur/services/banques/prod/index/picard/1.94/cneoformansH99.fa
-cneoformansJEC21	cneoformansJEC21	cneoformansJEC21	/pasteur/services/banques/prod/index/picard/1.94/cneoformansJEC21.fa
-csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/picard/1.94/csabaeus.fa
-dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/picard/1.94/dmelanogaster.fa
-ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/picard/1.94/ecaballus.fa
-fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/picard/1.94/fcatus.fa
-hg19	hg19	hg19	/pasteur/services/banques/prod/index/picard/1.94/hg19.fa
-hg18	hg18	hg18	/pasteur/services/banques/prod/index/picard/1.94/hg18.fa
-mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/picard/1.94/mlucifugus.fa
-mm10	mm10	mm10	/pasteur/services/banques/prod/index/picard/1.94/mm10.fa
-mm9	mm9	mm9	/pasteur/services/banques/prod/index/picard/1.94/mm9.fa
-mm8	mm8	mm8	/pasteur/services/banques/prod/index/picard/1.94/mm8.fa
-pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/picard/1.94/pfalciparum.fa
-pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/picard/1.94/pvampyrus.fa
-pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/picard/1.94/pvivax.fa
-scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/picard/1.94/scerevisiae.fa
-spombe	spombe	spombe	/pasteur/services/banques/prod/index/picard/1.94/spombe.fa
-sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/picard/1.94/sscrofa.fa
 
+yersinia_pestis	yersinia_pestis	yersinia_pestis	/data/bank/index/picard/1.94/yersinia_pestis.fa
+m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	/data/bank/index/picard/1.94/m_tuberculosis_CDC1551.fa
 
 

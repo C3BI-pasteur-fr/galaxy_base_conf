@@ -31,27 +31,9 @@
 #/orig/path/hg19.fa   hg19   hg19             /depot/data2/galaxy/hg19/base/hg19.fa
 #...etc...
 
-btaurus	btaurus	btaurus	/pasteur/services/banques/prod/index/bwa/0.5.9/btaurus.fa
-calbicans5314	calbicans5314	calbicans5314	/pasteur/services/banques/prod/index/bwa/0.5.9/calbicans5314.fa
-calbicansWO1	calbicansWO1	calbicansWO1	/pasteur/services/banques/prod/index/bwa/0.5.9/calbicansWO1.fa
-cfamiliaris	cfamiliaris	cfamiliaris	/pasteur/services/banques/prod/index/bwa/0.5.9/cfamiliaris.fa
-chiroptera	chiroptera	chiroptera	/pasteur/services/banques/prod/index/bwa/0.5.9/chiroptera.fa
-csabaeus	csabaeus	csabaeus	/pasteur/services/banques/prod/index/bwa/0.5.9/csabaeus.fa
-dmelanogaster	dmelanogaster	dmelanogaster	/pasteur/services/banques/prod/index/bwa/0.5.9/dmelanogaster.fa
-ecaballus	ecaballus	ecaballus	/pasteur/services/banques/prod/index/bwa/0.5.9/ecaballus.fa
-fcatus	fcatus	fcatus	/pasteur/services/banques/prod/index/bwa/0.5.9/fcatus.fa
-hg19	hg19	hg19	/pasteur/services/banques/prod/index/bwa/0.5.9/hg19.fa
-hg18	hg18	hg18	/pasteur/services/banques/prod/index/bwa/0.5.9/hg18.fa
-mlucifugus	mlucifugus	mlucifugus	/pasteur/services/banques/prod/index/bwa/0.5.9/mlucifugus.fa
-mm10	mm10	mm10	/pasteur/services/banques/prod/index/bwa/0.5.9/mm10.fa
-mm9	mm9	mm9	/pasteur/services/banques/prod/index/bwa/0.5.9/mm9.fa
-mm8	mm8	mm8	/pasteur/services/banques/prod/index/bwa/0.5.9/mm8.fa
-pfalciparum	pfalciparum	pfalciparum	/pasteur/services/banques/prod/index/bwa/0.5.9/pfalciparum.fa
-pvampyrus	pvampyrus	pvampyrus	/pasteur/services/banques/prod/index/bwa/0.5.9/pvampyrus.fa
-pvivax	pvivax	pvivax	/pasteur/services/banques/prod/index/bwa/0.5.9/pvivax.fa
-scerevisiae	scerevisiae	scerevisiae	/pasteur/services/banques/prod/index/bwa/0.5.9/scerevisiae.fa
-spombe	spombe	spombe	/pasteur/services/banques/prod/index/bwa/0.5.9/spombe.fa
-sscrofa	sscrofa	sscrofa	/pasteur/services/banques/prod/index/bwa/0.5.9/sscrofa.fa
+yersinia_pestis	yersinia_pestis	yersinia_pestis	/data/bank/index/bwa/0.5.9/yersinia_pestis.fa
+m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	m_tuberculosis_CDC1551	/data/bank/index/bwa/0.5.9/m_tuberculosis_CDC1551.fa
+
 
 #
 #Note that for backwards compatibility with workflows, the unique ID of

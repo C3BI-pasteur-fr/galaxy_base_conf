@@ -1,4 +1,4 @@
 # <display_name>	<file_base_path>
-silva_16S	/pasteur/services/banques/prod/rel/frogs/current/uncompressed/silva_123_16S/silva_123_16S.fasta
-silva_18S	/pasteur/services/banques/prod/rel/frogs/current/uncompressed/silva_123_18S/silva_123_18S.fasta
-silva_23S	/pasteur/services/banques/prod/rel/frogs/current/uncompressed/silva_123_23S/silva_123_23S.fasta
+silva_16S	/data/bank/frogs/uncompressed/silva_123_16S/silva_123_16S.fasta
+silva_18S	/data/bank/frogs/uncompressed/silva_123_18S/silva_123_18S.fasta
+silva_23S	/data/bank/frogs/uncompressed/silva_123_23S/silva_123_23S.fasta
