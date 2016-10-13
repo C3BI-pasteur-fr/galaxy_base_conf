@@ -1,0 +1,19 @@
+<tool id="CONVERTER_genbank_to_fasta" name="Genbank to fasta" version="0.0.1">
+    <description>Automatically convert a GenBank-format file into FASTA format</description>
+    <command> flat2fasta -o $output $input  </command> 
+    <inputs>
+      <param name="input" type="data" format="gb,gbk" label="Genbank dataset"/> 
+     </inputs>
+    <outputs>
+        <data name="output" format="fasta"/>
+    </outputs>
+    <tests>
+    </tests>
+    <help>
+
+**What it does**
+
+Convert a GenBank file into a fasta file.
+
+    </help>
+</tool>

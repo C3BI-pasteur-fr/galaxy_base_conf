@@ -1,0 +1,21 @@
+<tool id="CONVERTER_genbank_to_GFF3" name="Genbank to GFF" version="0.0.1">
+    <description>converter</description>
+    <command interpreter="perl">
+ bp_genbank2gff3.pl --GFF_VERSION 3 --CDS  $input  1>/dev/null
+    </command>
+    <inputs>		  
+      <param name="input" type="data" format="gb,gbk"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="gff" from_work_dir="genes.gff" />
+    </outputs>
+    <tests>
+    </tests>
+    <help>
+
+**What it does**
+
+Convert a GenBank file into a GFF file.
+
+    </help>
+</tool>
