@@ -76,7 +76,7 @@
         <file path="tool-data/bowtie_indices.loc" />
     </table>
     <table name="tophat_indexes" comment_char="#">
-      <columns>value, dbkey, path</columns>
+      <columns>value, dbkey, name, path</columns>
       <file path="tool-data/tophat_indices.loc" />
     </table>
     
