@@ -9,9 +9,39 @@
     </handlers>
     <destinations default="local">
         <destination id="local" runner="local" tags="localdefault"/>
-    </destinations>                           
-		<limits>
-        <limit type="destination_user_concurrent_jobs" id="local">5</limit>
+        <destination id="thread4" runner="local" tags="localdefault, thread"/>
+             <param id="local_slots">4</param>
+        </destination>
+    </destinations>  
+    <tools>
+    <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/odoppelt/bowtie/bowtie_wrapper/0.12.7" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/bowtie2/bowtie2/2.2.6.2" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/rnaspades/rnaspades/3.9.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/plasmidspades/plasmidspades/3.9.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/spades/spades/3.9.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/metaspades/metaspades/3.9.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/tophat/tophat/1.4.1.1" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/tophat2/tophat2/2.0.10" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/gmap_gsnap/gsnap/2013-01-23" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/gmap_gsnap/gmap/2013-01-23" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/mvalade/frogs/FROGS_clustering/2.3.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/mvalade/frogs/FROGS_filters/1.1.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/mvalade/frogs/FROGS_preprocess/1.4.2" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/mvalade/frogs/FROGS_remove_chimera/1.3.0" destination="thread4"/>
+
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/mvalade/frogs/FROGS_affiliation_OTU/0.7.0" destination="thread4"/>
+        
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/bowtie2/bowtie2/2.2.6" destination="thread4"/>
+        
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/mbwa_map/mbwa_wrapper/0.7.4" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/mblastall/mblastall/2.2.26" destination="thread4"/>
+        
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/cufflinks/cufflinks/2.2.1.0" destination="thread4"/>
+        <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/fmareuil/cuffdiff/cuffdiff/2.2.1.2" destination="thread4"/>
+    </tools>                        
+	<limits>
+        <limit type="destination_user_concurrent_jobs" tag="localdefault">6</limit>
+        <limit type="destination_user_concurrent_jobs" tag="thread">2</limit>
         <limit type="anonymous_user_concurrent_jobs">1</limit>
     </limits>
 
