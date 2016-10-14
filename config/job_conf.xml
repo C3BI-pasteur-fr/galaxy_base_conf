@@ -9,7 +9,7 @@
     </handlers>
     <destinations default="local">
         <destination id="local" runner="local" tags="localdefault"/>
-        <destination id="thread4" runner="local" tags="localdefault, thread"/>
+        <destination id="thread4" runner="local" tags="localdefault, thread">
              <param id="local_slots">4</param>
         </destination>
     </destinations>  
