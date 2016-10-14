@@ -222,4 +222,5 @@
     <tool id="CONVERTER_bedgraph_to_bigwig" version="" module="wigToBigWig/v4" commands="wigToBigWig"/>
     <tool id="wig_to_bigWig" version="1.1.0" module="wigToBigWig/v4" commands="wigToBigWig"/>
     <tool id="CONVERTER_sam_to_bigwig_0" version="1.0.0" module="samtools/0.1.19 bedtools/2.25.0 BigWig_tools/v4" commands="samtools;bedtools;bedGraphToBigWig"/>
-</modules>
+  <tool id="galaxy.web.pasteur.fr/toolshed-pasteur/repos/odoppelt/micropita/micropita/1.1.0" version="1.1.0" module="micropita/1.1.0" commands="MicroPITA.py" />
+  </modules>
